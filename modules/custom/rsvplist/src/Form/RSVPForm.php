@@ -1,12 +1,12 @@
 <?php
 
-namespace Drupal\rspvlist\Form;
+namespace Drupal\rsvplist\Form;
 
 use Drupal\Core\Database\Database;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 
-class RSPVForm extends FormBase {
+class RSVPForm extends FormBase {
 
     public function getFormId() {
         return 'rsvplist_email_form';
